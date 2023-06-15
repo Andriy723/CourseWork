@@ -76,7 +76,7 @@ public class EquipmentController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteEquipmentAnalyzer(
+    public ResponseEntity<EquipmentAnalyzer> deleteEquipmentAnalyzer(
             final @PathVariable Integer id) throws IOException {
 
         if (equipmentService.getMap().containsKey(id)) {

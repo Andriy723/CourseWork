@@ -23,7 +23,7 @@ public class EquipmentWritter {
     public static final String PATH = "src/main/resources/";
 
     public void writeToCSV(final EquipmentAnalyzer equipmentAnalyzer,
-                           String PATH) throws IOException {
+             final String PATH) throws IOException {
 
         final String nameOfClass = getClass().getSimpleName();
 
